@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>Brianna Rebecca Poulos</h1>
+        <h2> Western Washington Univerisity Alumna | Newmark CUNY J-School Grad Student | Journalist</h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="Profile Photo.JPG" src="profile photo.jpg" alt= Profile photo of Brianna Poulos>
+        <figcaption> Brianna Poulos, spring 2022 <span class="credit">Credit: Sydnie Coffey</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Brianna is a gradute student at the Newmark CUNY J-School, where she is pursuing a master's  degree in Engagement Journalism. Brianna graduated from Western Washington University in June of 2022 with a bachelor's degree majoring in news & editorial journalism and with minors in both English and communitcation studies.</p>
+        <p> Brianna has published work with <a href="https://www.whatcomhorizon.com/">The Horizon</a>, <a href="https://www.westernfrontonline.com/">The Front</a> and <a href="https://bellinghamalive.com/">Bellingham Alive</a>.
+
+        </p>
+      </section>
+
+      <h3 class="flex-hed">Portfolio Samples</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <figure class="sub_img">
+            <img class="small" src="bellingham alive logo.jpg"><a href="https://bellinghamalive.com/shop/jewelry-to-tell-a-story/"></a> <!-- You should crop your images to be the same size before using them, otherwise, even with flex box, they come out uneven -->
+            <figcaption class="sub_cap">Bellingham Alive</figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>Bellingham Alive is a prominent magazine serving Whatcom, Skagit and San Juan County.
+            </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="the front logo.jpg">
+            <figcaption class="sub_cap">The Front</figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>The Front is a student-lead, independent newspaper located at Western Washington University.</p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="the horizon logo.jpg">
+            <figcaption class="sub_cap">The Horizon</figcaption>
+          </figure>
+          <section class="sub_text">
+            <p>The Horizon is the student-led newspaper of Whatcom Community College. </p>
+          </section>
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>
